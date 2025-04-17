@@ -1,0 +1,78 @@
+.login-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.login-card {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.login-header {
+    background-color: #343a40;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.login-body {
+    padding: 30px;
+}
+.social-login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: all 0.3s;
+}
+.social-login-btn i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.google-btn {
+    background: white;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.google-btn:hover {
+    background: #f1f1f1;
+}
+.facebook-btn {
+    background: #3b5998;
+    color: white;
+}
+.facebook-btn:hover {
+    background: #344e86;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+.divider-text {
+    padding: 0 15px;
+    color: #6c757d;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+.password-field {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: #6c757d;
+}
